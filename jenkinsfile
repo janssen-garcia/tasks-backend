@@ -54,7 +54,7 @@
 					dir('api-test')
 					{
 					git credentialsId: 'github_login', url: 'https://github.com/janssen-garcia/tasksapi-test'
-					bat 'mvn test'
+					bat 'mvn clean test'
 					}
 				}
 			}
