@@ -19,7 +19,7 @@
 			}
 			stage('Sonar Analysis')
 			{
-				enviroment
+				environment
 				{
 				scanner_home = tool "SONAR_SCANNER"
 				}
